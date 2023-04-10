@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/images/logooobg.png" >
+    <link rel="stylesheet" href="signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<body >
+    
+   <div class="container">
+    <h1>Hello!</h1>
+    <span class="top"><h1>Create an account </h1></span>
+
+       <form action="POST">
+             <label for="name">User name:</label>
+             <input type="text" id="name" name="name" placeholder="username">
+             <label for="phone">Phone Number:</label>
+             <input type="phone" id="phone" name="phone" pattern="[0-9]" minlength="10" maxlength="10" placeholder="phone number">
+             <label for="email">Email Id:</label>
+             <input type="email" id="email" name="email" placeholder="email">
+             <label for="Password">Password:</label>
+             <input type="password" id="Password" name="Password" placeholder="password">
+             <!-- <input type="submit" width="10px">           -->
+             <div class="sub"><button type="submit" >Submit</button></div>
+             <span class="btm"><p>already have an acct ? <a href="#" >signin</a> </p></span>
+
+        </form>
+        <div class="im">
+            <img src="/images/signup.png" alt="no_img">
+        </div>
+    </div>
+    
+</body>
+</html>
