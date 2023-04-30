@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background:#121212;
+    height: 100vh;
+    width: 40%;
+    padding: 6%;
+    color: aliceblue;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    position: relative;
+    top: 11%;
+   
+}
+form input{
+    margin: 10px;
+    padding: 14px;
+    width: 20vw;
+    border-radius: 20px;
+
+}
+.container form label{
+    position: relative;
+    right: 40%;
+    top: 6vh;
+    font-size: medium;
+    font-weight: bold;
+}
+.container form button{
+    margin: 2%;
+    padding: 2%;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(45, 223, 45);
+    cursor: pointer;
+    transition: all 1s ease-out;
+
+}
+.container form button:hover{
+    background-color: rgb(223, 69, 45);
+    width: 9vw;
+    height: 6.5vh;
+
+}
+.sub{
+    width: 9vw;
+    height: 6.5vh;
+    margin: 10px;
+    padding: 4%;
+}
+.im img{
+    position: absolute;
+    left: 51.4vw;
+    top: 0%;
+    width: 48%;
+    height: 124.2vh;
+    
+}
+.btm a{
+    color: greenyellow;
+}
+.btm{
+    position: relative;
+    bottom:1.2vh;
+}
+.top{
+    position: relative;
+    left: 11vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:10vh;
+}
+footer {
+    padding: 2%;
+    background-color: rgb(219, 216, 216);
+     /* background-color: #5ac3ca; */
+    color: rgb(1, 1, 6); 
+    /* box-shadow: .1px 2px  rgb(96, 93, 93) inset; */
+    height: 24vh;
+ 
+}
+#i1{
+    position: relative;
+    top: 40px;
+}
+footer .foot{
+    /* height: 15vh; */
+    width: 20%;
+    padding: 2%;
+    position: relative;
+    left: 30%;
+    top: -16vh;
+    /* padding: 2%; */
+   /* background-color:rgb(6, 6, 6); */
+    /* color: rgb(251, 251, 252); */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.foot h3{
+    position: relative;
+    /* right: 6%; */
+    top: -1.2vh;
+}
+.foot span{
+    margin-top: 10px ;
+    /* background-color: aquamarine; */
+}
+.foot span img{
+    margin-right: 10px;
+}
+footer .line{
+    width: .12vw;
+    height: 20vh;
+    background-color:rgb(4, 1, 6);
+    position: relative;
+    bottom: 38vh;
+    left: 52%;
+}
+footer .soci{
+    width: 30%;
+    height: 90%;
+    padding: 2%;
+    position: relative;
+    left: 55%;
+    top: -62vh;
+    /* padding: 2%; */
+    /* background-color:rgb(6, 6, 6); 
+    color: rgb(251, 251, 252);  */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+   
+}
+.soci img{
+    position: relative;
+    right: 3%;
+    top: 4px;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 4, 7);
+}
+.soci , #li  {
+    position: relative;
+    bottom:4vh;
+}
+.soci , #fb  {
+    position: relative;
+    bottom:8vh;
+}
+.soci a{
+    margin: 20px;
+}
+#a1{
+    text-decoration: none;
+    /* color:black; */
+}
